@@ -8,4 +8,7 @@ class StaticPagesController < ApplicationController
     @otherHelpText = "Hey I'm double quote string"
     @title = 'Help'
   end
+
+  def about
+  end
 end
